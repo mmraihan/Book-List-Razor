@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\Book-List-Razor-Updated\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
+    "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\BookListRazor-Updated\\BookListRazor\\BookListRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\Book-List-Razor-Updated\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
+    "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\BookListRazor-Updated\\BookListRazor\\BookListRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\Book-List-Razor-Updated\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectUniqueName": "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\BookListRazor-Updated\\BookListRazor\\BookListRazor.csproj",
         "projectName": "BookListRazor",
-        "projectPath": "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\Book-List-Razor-Updated\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectPath": "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\BookListRazor-Updated\\BookListRazor\\BookListRazor.csproj",
         "packagesPath": "C:\\Users\\Raihan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\Book-List-Razor-Updated\\BookListRazor\\BookListRazor\\obj\\",
+        "outputPath": "C:\\Users\\Raihan\\Desktop\\Book-List-Razor\\BookListRazor-Updated\\BookListRazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
